@@ -17,7 +17,7 @@ function Message(props: MessageType) {
                     <p className={s.message_author}>{props.name}</p>
                     <span className={s.message_text}>{props.message}</span>
                 </div>
-                <div className={s.message_time} >
+                <div className={s.message_time}>
                     <span>{props.time}</span>
                 </div>
             </div>
