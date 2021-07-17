@@ -8,6 +8,13 @@ p{
     padding: 0;
     outline: transparent;
 }
-button{
+ button{
     border-color: transparent;
+     cursor: pointer;
 }
+ input{
+     border-style: solid;
+ }
+ .App{
+     background-color: #8aadad;
+ }
