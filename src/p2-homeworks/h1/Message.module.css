@@ -34,7 +34,7 @@
 }
 .message_wrapper::after{
     left: -20px;
-    background-color: #ffff;
+    background-color: #8aadad;
     border-bottom-right-radius: 10px;
 }
 .message_text{

@@ -10,7 +10,8 @@ p{
 }
  button{
     border-color: transparent;
-     cursor: pointer;
+    cursor: pointer;
+     border-width: inherit;
 }
  input{
      border-style: solid;
