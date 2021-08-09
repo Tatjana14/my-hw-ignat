@@ -4,12 +4,12 @@
     align-items: center;
     justify-content: space-around;
     position: relative;
-    left: -235px;
-    transition: left 200ms ease;
+    transform: translateX(-240px);
+    transition: transform 400ms ease;
 }
 
 .active {
-    left: 0;
+    transform: translateX(0);
 }
 
 .menu {
