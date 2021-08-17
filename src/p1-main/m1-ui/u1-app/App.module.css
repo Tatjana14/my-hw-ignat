@@ -14,7 +14,7 @@ ul{
 a{
     text-decoration: none;
 }
- button{
+ button, select{
     border-color: transparent;
     cursor: pointer;
      border-width: inherit;

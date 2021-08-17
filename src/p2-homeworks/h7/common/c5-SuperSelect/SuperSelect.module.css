@@ -1,0 +1,23 @@
+.select{
+    appearance: none;
+    position: relative;
+    width: 50px;
+    height: 25px;
+    background-color: rgb(72 106 131);
+    background-image: url("down-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: 80% 50%;
+    background-size: 10px;
+    padding-left: 10px;
+    color: white;
+    font-size: 15px;
+    transition: all 200ms ease;
+}
+
+.option:checked{
+    background-color: white;
+    color: rgb(72 106 131);
+}
+.option:hover .select{
+    background-image: url("top-arrow.svg");
+}
