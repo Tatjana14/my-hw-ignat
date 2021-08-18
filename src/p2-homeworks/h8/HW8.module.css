@@ -1,0 +1,15 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 200px;
+    padding: 10px 0 0 5px;
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px;
+}
