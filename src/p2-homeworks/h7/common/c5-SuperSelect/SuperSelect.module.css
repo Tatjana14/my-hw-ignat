@@ -13,11 +13,13 @@
     font-size: 15px;
     transition: all 200ms ease;
 }
-
+.select:hover{
+    background-color: rgb(95 139 171);
+}
+.option{
+    background-color: rgb(121 163 194);
+}
 .option:checked{
     background-color: white;
     color: rgb(72 106 131);
-}
-.option:hover .select{
-    background-image: url("top-arrow.svg");
 }

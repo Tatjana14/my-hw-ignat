@@ -18,6 +18,7 @@ function HW7() {
                     options={arr}
                     value={value}
                     onChangeOption={onChangeOption}
+                    style={{marginBottom: '10px'}}
                 />
             </div>
             <div>
